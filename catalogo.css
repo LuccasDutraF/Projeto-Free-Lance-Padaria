@@ -112,11 +112,12 @@
             font-size: 48px;
             margin-bottom: 15px;
             color: #5B1B1D; 
+            font-size: 22px;
         }
 
         .menu-header p {
             font-size: 18px;
-            color: #333;
+            color: #5B1B1D;
         }
 
         /* Menu Section */
@@ -232,7 +233,6 @@
         .brand-title h1{
             margin: 0;
             font-size: 14px;
-            font-size: 22px;
         }
        .brand-title h5{
             margin: 0;
