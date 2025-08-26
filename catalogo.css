@@ -51,43 +51,55 @@
         .wrap{
             max-width:var(--container); 
             margin:0 auto; 
-            padding:0 24px}
+            padding:0 24px
+        }
         .nav{
             display:flex; 
             align-items:center; 
             justify-content:space-between; 
             height:84px; 
-            margin: 0;}
+            margin: 0;
+        }
         .brand{
             display:flex; 
             align-items:center; 
-            gap:14px}
+            gap:14px
+        }
         .brand-title{
             font-family:'Playfair Display', serif; 
             letter-spacing:.4px; 
             color:var(--brown); 
-            font-weight:700}
-        .brand-title b{
+            font-weight:700
+        }
+        .brand-title h1{
             display:block; 
-            font-size:22px}
-        .brand-title small{
+            font-size:22px;
+            color: #5B1B1D;
+        }
+        .brand-title h5{
             font-size:12px; 
-            opacity:.7}
+            opacity:.7;
+            color: #5B1B1D;
+        }
         .nav-header ul{
             display:flex; 
             list-style:none; 
             gap:28px; 
             margin:0; 
-            padding:0;}
+            padding:0;
+        }
         .nav-header a{
             font-weight: 600;
             color:#5B1B1D; 
-            text-decoration: none;}
+            text-decoration: none;
+        }
         .nav-header a:hover{
-            color:#F37A87}
+            color:#F37A87
+        }
 
         /* Logo mark */
-        .logo{width: 69px;}
+        .logo{width: 69px;
+        }
 
         /* Hero Section */
         .menu-header {
@@ -164,17 +176,22 @@
             font-size: 18px;
             margin-bottom: 5px;
             color: #5B1B1D;
+            text-align: center;
         }
 
         .menu-item p {
             font-size: 14px;
             color: #555;
             margin-bottom: 5px;
+            padding-left: 5px;
+            width: 105%;
         }
 
         .menu-item span {
             font-weight: bold;
             color: #F37A87; 
+            display: flex;
+            justify-content: center;
         }
 
         /* Footer */
@@ -215,6 +232,7 @@
         .brand-title h1{
             margin: 0;
             font-size: 14px;
+            font-size: 22px;
         }
        .brand-title h5{
             margin: 0;
@@ -222,6 +240,10 @@
         }
         .menu-items {
             flex-direction: column;
+        }
+
+        .menu-item p{
+            width: 100%;
         }
            
         .sobre, .localizacao, .contato{
